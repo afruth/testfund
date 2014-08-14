@@ -115,7 +115,7 @@ An unregistered user is presented with the front page and a call to action to re
 The user will press the login button and the same workflow as above will be followed. Upon logging in, the user will be redirected to the List of Requests page
 
 ####Posting a request
-From the List of Request page, the user will be able to press a Post request button (proeminent)
+From the List of Request page, the user will be able to press a Post request button (proeminent). Upon clicking the buton, he will be redirected to the **Add a Request** page.
 
 ##The economy
 1. There will be an open economy. Tokens will be given at registration. We could set the number of tokens like that: initial tokens should be enough to pay 5 testers. There should be a minimum token value of 100 per test. Therefore initial token amount should be 500.
