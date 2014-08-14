@@ -117,6 +117,15 @@ The user will press the login button and the same workflow as above will be foll
 ####Posting a request
 From the **List of Requests** page, the user will be able to press a Post request button (proeminent). Upon clicking the buton, he will be redirected to the **Add a Request** page. Here, h will be presented with a form that allows him to set details of request. At least he has to set: Number of tokens per test, number of tests expected (total number of tokens is automatically computed from that), Details about the test, a link to the app that has to be tested. As optional informations he can add: deadline, time to test (time from accepting a test untill finishing it for the tester).
 
+####Testing
+A tester can go and select a request from the **List of Requests** page and he is taken to the **Request Detail** page. Here he can see (if the request is still available and if there are enough tokens) a button that allows his to register as a tester. After pressing the button he opens a response. Opening a response moves the tokens from the request to a temporary purse that cannot be accessed by anyone. Later, after testing the app he can come back to the response and add testing results. Then he can send that response. After a response is sent, the requester can approve or reject the response. 
+
+*If the response is approved*, the tokens are substracted from the temporary purse and awarded to the tester. Approving the response generates notification for both parties urging them to rate the other for this request.
+
+*If the response is rejected*, the tokens are substracted from the temporary purse and refunded to the request. The tester is then entitled to challenge the rejection, generating an email to a person that acts as an judge, email containing details about the request, the response and a justification from the tester. In the future we can create a collection for challenges and mechanisms inside the site, but for start we'll go with email.
+
+A tester can upload files to his response and both parties can comment on responses or on files.
+
 ##The economy
 1. There will be an open economy. Tokens will be given at registration. We could set the number of tokens like that: initial tokens should be enough to pay 5 testers. There should be a minimum token value of 100 per test. Therefore initial token amount should be 500.
 2. In the first round no regulating methods will be in place (except the self regulating part). In the second round, we'll devise a tax, that is calculated based on an algorithm in order to provide stable output.
