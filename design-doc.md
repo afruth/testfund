@@ -38,6 +38,7 @@ The following collections are proposed as a starting point:
 
 ####UserAttributes
 This collection will hold user attributes (for now the tokens). Can be extended in the future to build a full fledged profile (bio, access to testing devices etc.). 
+
 ###UserRatings
 This collection will hold user ratings.
 
@@ -106,16 +107,15 @@ After each completed response, both parties should get a memo to rate the other 
 
 ##The workflows
 This part should be a textual description of the workflows
- I should complete this part after we agree on the general ideas proposed.
 
 ####Registering
-An unregistered user is presented with the front page and a call to action to register. Upon pressing register, the accounts-meteor login page opens and creates an user with respective credentials. The user is redirected to List of Requests page. On user account creation, the user will be awarded 500 tokens.
+An unregistered user is presented with the **front page** and a call to action to register. Upon pressing register, the accounts-meteor login page opens and creates an user with respective credentials. The user is redirected to **List of Requests page**. On user account creation, the user will be awarded 500 tokens.
 
 ####Logging in
-The user will press the login button and the same workflow as above will be followed. Upon logging in, the user will be redirected to the List of Requests page
+The user will press the login button and the same workflow as above will be followed. Upon logging in, the user will be redirected to the **List of Requests** page
 
 ####Posting a request
-From the List of Request page, the user will be able to press a Post request button (proeminent). Upon clicking the buton, he will be redirected to the **Add a Request** page.
+From the **List of Requests** page, the user will be able to press a Post request button (proeminent). Upon clicking the buton, he will be redirected to the **Add a Request** page. Here, h will be presented with a form that allows him to set details of request. At least he has to set: Number of tokens per test, number of tests expected (total number of tokens is automatically computed from that), Details about the test, a link to the app that has to be tested. As optional informations he can add: deadline, time to test (time from accepting a test untill finishing it for the tester).
 
 ##The economy
 1. There will be an open economy. Tokens will be given at registration. We could set the number of tokens like that: initial tokens should be enough to pay 5 testers. There should be a minimum token value of 100 per test. Therefore initial token amount should be 500.
