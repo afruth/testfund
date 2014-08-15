@@ -17,6 +17,8 @@ To provide a base for the future development of the MMTF application. To summari
 ##The Meteor Mutual Testing Fund (MMTF)
 ###About MMTF
 The initial blog post found at http://lemur.ro/the-meteor-mutual-testing-fund/
+The hackpad that started this document is at: https://themeteormutualtestingfund.hackpad.com/The-Meteor-Mutual-Testing-Fund-MMTF-q30xbUUfwxO
+The Trello board that started the hackpad is at: https://trello.com/b/ObQcTLyO/the-meteor-mutual-testing-fund
 
 ####What if:
 We could test other peoples apps and get tokens for that
