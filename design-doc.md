@@ -146,6 +146,8 @@ The following packages will be used as a starting point:
 No need to justify here
 ####bootstrap-3
 Same, we decided we'd go with bootstrap not semantic
+####bootstrap-less
+####less
 ####jquery
 I believe it's still built-in
 ####underscore
@@ -159,3 +161,4 @@ Very nice package, allows us to create helpers directly on the collection, and u
 ####accounts-ui
 For login / sign-up logic.
 ####accounts-meteor-developer 
+
