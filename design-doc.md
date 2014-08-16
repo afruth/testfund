@@ -1,6 +1,6 @@
 #The Meteor Mutual Testing Fund design document
 
-##General informations
+##General information
 
 ###Versions:
 
