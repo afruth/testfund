@@ -3,6 +3,6 @@
     "iron-router": {},
     "collection2": {},
     "collection-helpers": {},
-    "bootstrap-3": {}
+    "bootstrap3-less": {}
   }
 }
