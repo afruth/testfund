@@ -19,6 +19,11 @@ var Schema = new SimpleSchema({
         label: "Request instructions",
         optional: true
     },
+    testingTime: {
+        type: Number,
+        label: 'Time for response completion since undertaking it',
+        optional: true
+    },
     createdDate: {
         type: Date,
         label: "Date of request"
@@ -59,11 +64,6 @@ Requests.helpers({
                 createdDate: -1
             }
         })
-    },
-    questionnaire: function() {
-        return Questionnaires.find({
-            requestId: this._id
-        });
     },
     author: function() {
         return Meteor.users.find({

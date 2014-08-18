@@ -1,25 +1,17 @@
 Responses = new Meteor.Collection("responses");
 
 var Schema = new SimpleSchema({
-    questionnaireId: {
+    requestId: {
         type: String,
-        label: "Id of the questionnaire this answers to"
+        label: "Id of the request this answers to"
     },
     userId: {
         type: String,
         label: "Id of the user that answers"
     },
-    responses: {
-        type: [Object],
-        label: "Array of responses"
-    },
-    'responses.$.id': {
+    responseText: {
         type: String,
-        label: "Response Id from questionnaires"
-    },
-    'responses.$.response': {
-        type: String,
-        label: "Answer text"
+        label: "Response text"
     },
     createdDate: {
         type: String,
